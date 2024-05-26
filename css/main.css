@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ********************************************* */
+/* ************************************ */
+/* **************************** */
+
+header{
+    /* background-color: blue; */
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-rigth-section{
+    /* background-color: blueviolet; */
+    list-style: none;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+nav .nav-rigth-section a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+}
+
+nav .nav-rigth-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+nav .nav-rigth-section img{
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 32px;
+}
+
+nav .nav-rigth-section img:hover{
+    box-shadow: 0 1px 6px #a7afbd;
+    border-color: #dfe1e500;
+}
+
+nav .nav-rigth-section .menu:hover{
+    box-shadow: 0 1px 6px #a7afbd;
+    border-color: #dfe1e500;
+}
+
+nav .nav-rigth-section a:hover{
+    text-decoration: underline;
+}
+
+/* ********************************************* */
+/* ************************************ */
+/* **************************** */
+
+main {
+    margin-top: 70px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 500px;
+    /* PROPIEDAD: VALOR1 VALOR2; */
+    /* PROPIEDAD: VALOR_VERTICAL VALOR_HORIZONTAL; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+main .main-logo img{
+    height: 150px;
+}
+
+/* INPUT SECTION */
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+main .main-input-container{
+    /* background-color: aqua; */
+    width: 500px;
+    border: 1px solid #d1d4d3ee;
+    border-radius: 30px;
+}
+
+main .main-input input{
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 410px;
+}
+
+main .main-input .search-icon{
+    background-image: url(/images/lupa.png);
+    background-size: contain;
+    background-position: center;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+main .main-input .micro-icon{
+    background-image: url(/images/microfono.png);
+    background-size: contain;
+    background-position: center;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-input .cam-icon{
+    background-image: url(/images/camara.png);
+    background-size: contain;
+    background-position: center;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px #a7afbd;
+    border-color: #dfe1e500;
+}
+    
+    /* MAIN BUTTONS SECTION */
+main .main-buttons {
+    /* anchura */
+    width: 550px ;
+    /* Vertical ~ Horizontal */
+    margin: 0 auto;
+}
+    
+main .main-buttons div {
+    /* Alinear elementos en la misma línea */
+    display: inline;
+}
+    
+main .main-buttons button {
+    /* SEPARACIÓN ENTRE BUSCADOR Y BOTONES */
+    margin-top: 30px;
+    margin-bottom: 150px;
+    /* Eliminar borde negro -- NONE or 0px */
+    border: none;
+    height: 40px;
+    background-color: #f8f9fa;
+    /* Color de texto */
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0px 15px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+    
+main .main-buttons button:hover{
+    color: #202124;
+    /* borde + oscuro al pasar mouse */
+    border: 1px solid #dadce0;
+    /* Sombra al pasar mouse */
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,.1);
+}
+
+main .location ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    color: #3c4043;
+    background-color: rgb(243, 245, 244);
+    border-top: 1px solid #dadce0;
+    /* width: 100%; */
+    height: 20px;
+}
+
+/* ********************************************* */
+/* ************************************ */
+/* **************************** */
+
+footer {
+    background-color: rgb(243, 245, 244);
+    border-top: 1px solid #dadce0;
+    width: 100%;
+    height: 20px;
+    /* Vertical ~ Horizontal */
+    margin: 0 auto;
+    display: flex;
+    align-content: flex-end;
+}
+
+footer .footer-left{
+    /* background-color: blueviolet; */
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+
+footer .footer-right{
+    /* background-color: blueviolet; */
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+}
+
+footer .footer-left a{
+    text-decoration: none;
+    color: #3c4043;
+    margin-right: 15px;
+}
+
+footer .footer-right a{
+    text-decoration: none;
+    color: #3c4043;
+    margin-right: 20px;
+}
+
+
+
